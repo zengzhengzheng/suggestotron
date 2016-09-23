@@ -20,7 +20,9 @@ class TopicsController < ApplicationController
   def new
     @topic = Topic.new
   end
-
+  # GET /topics/about
+  def about
+  end
   # GET /topics/1/edit
   def edit
   end
